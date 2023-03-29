@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tittle>Naruto & Boruto Turkiye comminuty</tittle>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</empty></li>
+          <li><a href="#">About</I love manga></li>
+          <li><a href="#">Contact</sasukedonooo@gmail,com></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About Me</h2>
+<p>Sa [Konahali Naruto] Rameni severim [kyuubinin kankasi]. ilgi duydugum sey [sakura] neredeyse [10 yil beni sevmesini bekledim]. bos vakiterimde, I like to [antreman yaparim boylece itachi benide s].bout] .</p>
+        
+      </section>
+      <section>
+        <h2>My Projects</h2>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <li><a href="#">Project 3</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Website</p>
+    </footer>
+  </body>
+</html>
+<a href="mailto:deneme@gmail.com">Email me</a>
+<img src="download.jpg" alt="Description of image">
+
+<video autoplay loop muted id="moving-video">
+  <source src="naruto.mp4" type="video/mp4">
+</video>
+var video = document.getElementById("my-video");
+var muteBtn = document.getElementById("mute-btn");
+var volumeSlider = document.getElementById("volume-slider");
+
+muteBtn.addEventListener("click", function() {
+  if (video.volume > 0) {
+    video.volume = 0;
+    muteBtn.innerHTML = "Unmute";
+  } else {
+    video.volume = volumeSlider.value;
+    muteBtn.innerHTML = "Mute";
+  }
+});
+
+volumeSlider.addEventListener("input", function() {
+  video.volume = volumeSlider.value;
+  if (video.volume > 0) {
+    muteBtn.innerHTML = "Mute";
+  } else {
+    muteBtn.innerHTML = "Unmute";
+  }
+});
+#volume-slider {
+  width: 100px;
+}
+<video id="my-video" src="your_video.mp4"></video>
+<div>
+  <button id="mute-btn">Mute</button>
+  <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+</div>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nardo community</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">About Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>nardo saske</h1>
+			<p>Nardo-kun</p>
+			<img src="download.jpg" alt="Me">
+			<h2>Latest Blog Posts</h2>
+			<ul>
+				<li><a href="#">My First Blog Post</a></li>
+				<li><a href="#">My Second Blog Post</a></li>
+				<li><a href="#">My Third Blog Post</a></li>
+			</ul>
+<html>
+<head>
+	<title>My Video</title>
+</head>
+<body>
+	<video id="myVideo" width="640" height="360" controls>
+		<source src="nardo.mov" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<br>
+	<button onclick="setVolume(0)">Mute</button>
+	<input type="range" min="0" max="1" step="0.1" value="1" onchange="setVolume(this.value)">
+	<button onclick="setVolume(1)">Unmute</button>
+	<script>
+		var vid = document.getElementById("myVideo");
+
+		function setVolume(volume) {
+			vid.volume = volume;
+		}
+	</script>
+</body>
+</html>
+
+	<footer>
+		<p>&copy; 2023 My Personal Blog</p>
+	</footer>
+</body>
+</html>
